@@ -1,0 +1,24 @@
+* {
+    transition: color 0.5s ease;
+}
+
+body {
+     color: red;
+     margin: 0;
+ }
+
+h1 {
+    font-size: 50px;
+}
+
+img {
+    width: 100%;
+}
+.background-img {
+    background-image: url(image/progenter1.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
