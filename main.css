@@ -14,6 +14,14 @@ h1 {
 img {
     width: 100%;
 }
+footer {
+    background-color: black;
+
+}
+footer, h1 {
+    margin: 0;
+}
+
 .background-img {
     background-image: url(image/progenter1.jpg);
     height: 100vh;
