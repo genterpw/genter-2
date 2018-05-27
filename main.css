@@ -3,6 +3,7 @@
 }
 
 body {
+     font-family: 'Roboto', sans-serif;
      color: red;
      margin: 0;
  }
@@ -21,9 +22,20 @@ footer {
 footer, h1 {
     margin: 0;
 }
-
+nav ul li {
+    font-size: 30px;
+    display: inline-block;
+    margin: 0 40px;
+}
+nav {
+    color: #fff;
+    padding: 20px;
+    margin: 0 40px;
+    display: flex;
+    justify-content: space-between;
+}
 .background-img {
-    background-image: url(image/progenter1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .1)), url(./image/progenter1.jpg);
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
